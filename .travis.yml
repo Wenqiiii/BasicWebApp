@@ -4,7 +4,7 @@ jdk:
 script: mvn clean verify
 deploy:
   provider: heroku
-  app:cryptic-fortress-61511
+  app: cryptic-fortress-61511
   api_key:
     secure: sQOtzZ7E5kPmhXmdHcD3ui31+17jEQ2dn3fUZ6eMWVUaET18wH4UhP4WKOOHMv/0kc/QpYYqabCxpvFxAeHm23byVdtj7Yh06nPqR3puw/rVPLK4TD0QQx5gxCV3CEO2vZU7Q8iXwcHzT0Tw7PJ63Il4OYG/nwcyoMKoc+PIDe0ZWzSMPZzu1Q5b9EpixlfSWxSkV7hiqGBWpb/sR2SqoGevwlXoluYho8F/oO9+YanUMO8VT8IPnb0B8MToQv6jL5P9hhIXW7eLONECjyUmVqz9c5L6Mqyeaiamw/7ApABYHaTQ6Felz079JpUnqM7k/ZKArLXKAFs/4/0cR0JoHLQyF+WFVjFFWbE/IVGuwQEdYhkvi2HMrWPm4YXnDT+UdI4ccv3s+SQvLFVVCu9XZVcgRiOip6zNETxwUiK1AGeVB6ZgfmER19XtALKuVp34fAxzLMZUfprpjbNFKzTifLfn/sYIXxG6JWKBfLwhpFGiMSHKY8Qzxm1D7FFe/YK5UIcZlOuNI81tpJQirnWg39E3P1vFj0gCvCFWk9vGrqkmpHkcfNa7P/X97eEvoR6rMC+WmwUGzY6vUFwhuD12IaZfwt0qnkOrTZVCKfFN30efQVNwxG5KV4Gyo/ydEJgoCL4TJTzMM50yR6Av+x4ZIgbmGBEv9wRsRtf7sI7JHa4=
   on: master
