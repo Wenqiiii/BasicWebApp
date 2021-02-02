@@ -26,6 +26,14 @@ public class QueryProcessorTest {
     }
     @Test
     public void knowsTeamName() throws Exception {
-        assertThat(queryProcessor.process("waht is your name"), containsString("WWW"));
+        assertThat(queryProcessor.process("what is your name"), containsString("WWW"));
+    }
+    @Test
+    public void ninepluseighteen() throws Exception {
+        assertThat(queryProcessor.process("what is 9 plus 18"), containsString("27"));
+    }
+    @Test
+    public void elvplusnineteen() throws Exception {
+        assertThat(queryProcessor.process("what is 11 plus 19"), containsString("30"));
     }
 }
