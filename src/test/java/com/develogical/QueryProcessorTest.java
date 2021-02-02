@@ -36,4 +36,12 @@ public class QueryProcessorTest {
     public void elvplusnineteen() throws Exception {
         assertThat(queryProcessor.process("what is 11 plus 19"), containsString("30"));
     }
+    @Test
+    public void largestNum() throws Exception {
+        assertThat(queryProcessor.process("which of the following numbers is the largest: 606, 64"), containsString("606"));
+    }
+    @Test
+    public void thirteenPluselev() throws Exception {
+        assertThat(queryProcessor.process("which is 13 plus 11"), containsString("24"));
+    }
 }

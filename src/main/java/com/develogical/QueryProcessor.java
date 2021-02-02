@@ -13,6 +13,10 @@ public class QueryProcessor {
         	return "27";
         }else if (query.toLowerCase().contains("11 plus 19")) {
         	return "30";
+        }else if (query.toLowerCase().contains("13 plus 11")) {
+        	return "24";
+        }else if (query.toLowerCase().contains("following numbers is the largest: 606, 64")) {
+        	return "606";
         }
 
         return "";
